@@ -1,0 +1,64 @@
+html{
+
+font-size: 62.5%;    
+}
+
+h1{
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(1, 78, 145);
+}
+.form-holder{
+   width: 60%;
+   margin: auto;
+}
+
+.description{
+    font-size: 3rem;
+    color: rgb(97, 100, 102);
+    text-align: center;
+
+}
+
+.input{
+    width: 80%;
+    padding: 2rem 2rem ;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    outline: 0;
+    margin: 2rem 0;
+}
+
+.submitButton{
+display: block;
+padding: 2rem;
+font-size: 2rem;
+border-radius: 30px;
+transition: 0.3s;
+
+}
+.submitButton:hover{
+    cursor: pointer;
+    background-color: purple;
+    color: white;
+    margin-left: 1rem;
+    
+}
+
+.label{
+    display: block;
+    font-size: 1.5rem;
+    color: rgb(167, 73, 167);
+}
+
+.qustLabel{
+display: block;
+font-size: 2rem;
+}
+
+.answer{
+display: inline-block;
+font-size: 2rem;
+margin: 2rem;
+
+}
