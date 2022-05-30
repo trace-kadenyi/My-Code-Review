@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div class="form-holder">
+      
+      <h1 id="title">Job Satisfaction Survey Form</h1>
+      <p id="description" class="description">This is a job satisfaction survey to determine your experience as an employee in this organization. Your reponses will remain anonymous, therefore, kindly respond as honestly as possible. </p>
+      
+      <form id="survey-form" >
+       
+        <label id="name-label" for="name" class="label">Enter your name: </label>
+         <input class="input" type="text" name="name" id="name" placeholder="Enter your name " required>
+         
+         <label id="email-label"  for="email" class="label">Enter your email: </label>
+         <input type="email" name="email" id="email" class="input" placeholder="Email" required>
+         
+         <label id="number-label" for="number" class="label">Enter your telephone number: </label>
+         <input type="number" id="number" placeholder="Enter telephone number " class="input" required min="1000000000" max="9999999999">
+        
+         <label for="dropdown" class="label">Select your Gender </label>
+         <select name="gender" id="dropdown" class="input">
+           <option value="" selected></option>
+          <option value="male">male</option>
+          <option value="female">female</option>
+          <option value="other">prefer not to say</option>
+        </select>
+
+        <label  class="qustLabel">Are you satisfied with your work environment ?</label>
+        <input class="answer" type="radio" value="yes" title="yes" name="animal" > 
+        <label class="answer">Yes</label>
+        <br>
+        <input class="answer" type="radio" value="no" title="no" name="animal"> 
+        <label class="answer">No</label><br>
+
+        <label class="answer">If your answer is No, how can we improve the work environment?</label><br>
+        <input class="answer" type="checkbox" id="decoration" name="decoration" value="decoration">
+        <label class="answer" for="decoration"> Improve office decoration</label><br>
+        <br>
+        <input class="answer" type="checkbox" id="staff" name="staff" value="staff">
+        <label class="answer" for="staff"> Hire more support staff.</label><br>
+        <input class="answer" type="checkbox" id="balance" name="balance" value="balance">
+        <label class="answer" for="balance"> Improve work/life balance</label><br>
+        <input class="answer" type="checkbox" id="benefits" name="benefits" value="benefits">
+        <label class="answer" for="benefits"> Increase the work benefits</label><br>
+
+        <label class="answer" for="comments">Add comments:</label>
+
+        <textarea class="input answer" id="comments" name="comments" rows="4" cols="50"></textarea> 
+
+         <button type="submit" class="submitButton" id="submit"> Submit </button>
+      </form>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+    <script  src="js/index.js"></script>
+  </body>
+</html>
